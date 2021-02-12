@@ -1,0 +1,11 @@
+import { ParseConfigHost } from 'typescript';
+import { TargetResolver, ILookupProps } from '../resolver/fileLookup';
+import { ITsConfigReference } from './interfaces';
+declare type ByOutputMap = Map<string, string>;
+declare type ByPackageMap = Map<string, ByOutputMap>;
+export declare function createTsParseConfigHost(): ParseConfigHost;
+export declare function buildMappings(references: ITsConfigReference[], tsConfigDir: string): ByOutputMap;
+export declare function groupByPackage(mappings: ByOutputMap): ByPackageMap;
+export declare function createTsTargetResolver(references: ITsConfigReference[], tsConfigDir: string): undefined | TargetResolver;
+export declare function mappingsToResolver(mappings: ByPackageMap): (lookupArgs: ILookupProps) => import("../resolver/fileLookup").ILookupResult;
+export {};

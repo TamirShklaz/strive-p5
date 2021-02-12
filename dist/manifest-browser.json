@@ -1,0 +1,16 @@
+[
+  {
+    "absPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/dist/app.js",
+    "browserPath": "/app.js",
+    "relativePath": "app.js",
+    "type": "js",
+    "webIndexed": true
+  },
+  {
+    "absPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/dist/vendor.js",
+    "browserPath": "/vendor.js",
+    "relativePath": "vendor.js",
+    "type": "js",
+    "webIndexed": true
+  }
+]

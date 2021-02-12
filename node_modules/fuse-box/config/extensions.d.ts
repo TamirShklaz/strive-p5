@@ -1,0 +1,11 @@
+export declare const JS_EXTENSIONS: string[];
+export declare const TS_EXTENSIONS: string[];
+export declare const EXECUTABLE_EXTENSIONS: string[];
+export declare const FONT_EXTENSIONS: string[];
+export declare const IMAGE_EXTENSIONS: string[];
+export declare const ICO_EXTENSIONS: string[];
+export declare const STYLESHEET_EXTENSIONS: string[];
+export declare const DOCUMENT_EXTENSIONS: string[];
+export declare const LINK_ASSUMPTION_EXTENSIONS: string[];
+export declare const TEXT_EXTENSIONS: string[];
+export declare const FTL_ELIGIBLE_EXTENSIONS: string[];

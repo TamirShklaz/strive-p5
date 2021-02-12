@@ -1,0 +1,8 @@
+{
+  "fuse-box" : {
+    "dev" : true
+  },
+  "main": "clientHotReload.ts",
+  "name": "fuse-box-hot-reload",
+  "version": "1.0.0"
+}

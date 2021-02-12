@@ -1,0 +1,145 @@
+{
+  "currentId": 5,
+  "modules": {
+    "1": {
+      "absPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/src/index.ts",
+      "dependencies": [
+        2
+      ],
+      "id": 1,
+      "mtime": 1613035341288,
+      "packageId": "default",
+      "publicPath": "src/index.ts"
+    },
+    "2": {
+      "absPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/fuse-box-hot-reload/clientHotReload.ts",
+      "dependencies": [
+        3
+      ],
+      "id": 2,
+      "mtime": 1613030657472,
+      "packageId": "fuse-box-hot-reload@1.0.0",
+      "publicPath": "node_modules/fuse-box/modules/fuse-box-hot-reload/clientHotReload.ts"
+    },
+    "3": {
+      "absPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/fuse-box-websocket/index.js",
+      "dependencies": [
+        4
+      ],
+      "id": 3,
+      "mtime": 1613030657472,
+      "packageId": "fuse-box-websocket@1.0.0",
+      "publicPath": "node_modules/fuse-box/modules/fuse-box-websocket/index.js"
+    },
+    "4": {
+      "absPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/events/index.js",
+      "dependencies": [],
+      "id": 4,
+      "mtime": 1613030657472,
+      "packageId": "events@1.0.0",
+      "publicPath": "node_modules/fuse-box/modules/events/index.js"
+    },
+    "5": {
+      "absPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/p5/lib/p5.min.js",
+      "dependencies": [],
+      "id": 5,
+      "mtime": 1613021819313,
+      "packageId": "p5@1.2.0",
+      "publicPath": "node_modules/p5/lib/p5.min.js"
+    }
+  },
+  "packages": {
+    "default": {
+      "type": 0,
+      "publicName": "default",
+      "isUserPackage": true,
+      "isExternalPackage": false
+    },
+    "fuse-box-hot-reload@1.0.0": {
+      "type": 1,
+      "meta": {
+        "fusebox": {
+          "dev": true
+        },
+        "name": "fuse-box-hot-reload",
+        "packageJSONLocation": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/fuse-box-hot-reload/package.json",
+        "packageRoot": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/fuse-box-hot-reload",
+        "version": "1.0.0",
+        "entryAbsPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/fuse-box-hot-reload/clientHotReload.ts",
+        "entryFuseBoxPath": "clientHotReload.js"
+      },
+      "publicName": "fuse-box-hot-reload@1.0.0",
+      "isUserPackage": false,
+      "isExternalPackage": true,
+      "deps": [
+        2
+      ],
+      "mtime": 1613030657472
+    },
+    "fuse-box-websocket@1.0.0": {
+      "type": 1,
+      "meta": {
+        "fusebox": {
+          "dev": true
+        },
+        "name": "fuse-box-websocket",
+        "packageJSONLocation": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/fuse-box-websocket/package.json",
+        "packageRoot": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/fuse-box-websocket",
+        "version": "1.0.0",
+        "entryAbsPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/fuse-box-websocket/index.js",
+        "entryFuseBoxPath": "index.js"
+      },
+      "publicName": "fuse-box-websocket@1.0.0",
+      "isUserPackage": false,
+      "isExternalPackage": true,
+      "deps": [
+        3
+      ],
+      "mtime": 1613030657472
+    },
+    "events@1.0.0": {
+      "type": 1,
+      "meta": {
+        "fusebox": {
+          "polyfill": true
+        },
+        "name": "events",
+        "packageJSONLocation": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/events/package.json",
+        "packageRoot": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/events",
+        "version": "1.0.0",
+        "entryAbsPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/fuse-box/modules/events/index.js",
+        "entryFuseBoxPath": "index.js"
+      },
+      "publicName": "events@1.0.0",
+      "isUserPackage": false,
+      "isExternalPackage": true,
+      "deps": [
+        4
+      ],
+      "mtime": 1613030657472
+    },
+    "p5@1.2.0": {
+      "type": 1,
+      "meta": {
+        "name": "p5",
+        "packageJSONLocation": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/p5/package.json",
+        "packageRoot": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/p5",
+        "version": "1.2.0",
+        "entryAbsPath": "/Users/tamirshklaz/Documents/Programming/Strive/website/strive-p5/node_modules/p5/lib/p5.min.js",
+        "entryFuseBoxPath": "lib/p5.min.js"
+      },
+      "publicName": "p5@1.2.0",
+      "isUserPackage": false,
+      "isExternalPackage": true,
+      "deps": [
+        5
+      ],
+      "mtime": 1613021819313
+    }
+  },
+  "ctx": {
+    "linkedReferences": {},
+    "systemDependencies": {},
+    "tsConfigAtPaths": []
+  }
+}
